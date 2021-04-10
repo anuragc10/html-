@@ -1,0 +1,24 @@
+.nav-center{
+    text-align: center;
+    background-color: rgb(168, 245, 245);
+}
+.nav-links{
+    display: block;
+}
+.container{
+    background-color:black;
+    text-align: center;
+    margin: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: crimson;
+    text-shadow:darkgrey;
+    color: white;
+}
+#btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(194, 81, 81);
+    padding: 5px;
+    size: 20px;
+    border-radius: 8px;
+}
