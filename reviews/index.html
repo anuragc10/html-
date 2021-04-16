@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <style>
+        #main-id{
+            margin-top: 150px;
+            margin-right: 500px;
+            margin-left: 500px;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow:  3px 5px 5px 6px #51afc0;
+            
+        }
+        .button-container{
+            
+            margin: 12px;
+            
+            font-size: 12px;
+        }
+        .prev-btn{
+            margin-right: 6px;
+            font-size: 20px;
+            border-radius: 6px;
+        }
+        .next-btn{
+            margin-left: 5px;
+            font-size: 20px;
+            border-radius: 6px;
+        }
+        .random-btn{
+            text-align: center;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+        
+        
+    </style>
+        
+</head>
+<body style="background-color: rgb(181, 241, 241);">
+    <main id="main-id" style="text-align: center;background-color: azure;">
+        <section class="container">
+            <div class="title">
+                <h2>our rviews</h2>
+                <div class="underline"></div>
+            </div>
+            <article class="reviews">
+                <div class="img-container">
+                    <img style="height: 100px;width:100px" src="bangalore.jpg" id="person-img" alt="image1">
+                </div>
+                <h4 id="author">bangalore</h4>
+                <h4 id="job">ux designer</h4>
+                <p  id="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+
+                <!--prev next button-->
+                <div class="button-container">
+                    <button class="prev-btn"><</button>
+                    <button class="next-btn">></button>
+                </div>
+                <!--random button-->
+                <button class="random-btn">suprise me</button>
+            </article>
+        </section>
+    </main>
+
+    <script src=app.js></script>
+</body>
+</html>
